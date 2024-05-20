@@ -28,6 +28,7 @@ This program serves as a calculator for the user, who enters a problem they want
    - Asks the user for a problem they would like to solve.
    - Uses a conditional statement to determine which operand they used, and apply it to solve the problem.
    - Presents the answer of the problem.
+   - Lets the user solve another problem if they wish. 
    
 
 ## How to Run the Apps
@@ -46,6 +47,7 @@ This program serves as a calculator for the user, who enters a problem they want
   - Open the provided C++ project in Xcode or any C++ compiler.
   - Run the program.
   - Enter a problem you would like to be solved.
+  - Select yes if you would like to solve another problem.
 
 
 ## Output
@@ -84,8 +86,12 @@ This program serves as a calculator for the user, who enters a problem they want
 - **Problem 3 (Basic Math Calculator)**:
   - Sample Output:
     ```
-    Enter a problem you would like to solve: ____
+    Enter a problem you would like to solve (e.g., 3+5, sin(0.5), max(3,5)): ____
 
-    The answer to ____ is: ___
+    Result: ___
+
+    Would you like to solve another problem? (y/n): __
+
+    Thanks for using the calculator!
     
     ```
