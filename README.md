@@ -14,13 +14,20 @@ This program serves as a calculator for the user, who enters a problem they want
 
 ## Features
 1. **Problem 1 (BMI Calculator)**:
-   -
+   - Asks the user questions about: their name, age, gender, height by feet, height by inches, and their weight in pounds, saving each response as a variable.
+   - Converts height by feet and inches into just inches.
+   - Calculates BMI using the BMI formula.
+   - Informs the user what their BMI status is (using a conditional statement). 
    
 3. **Problem 2 (Birthday Date Meaning Generator)**:
-   - 
+   - Asks the user for birthday date by month, day and year (2000-2023).
+   - Using a switch statement, tells the user the meaning of their birth month, day, and year.
+   - Lets the user enter another birthday if they wish.
 
 4. **Problem 3 (Basic Math Calculator)**:
-   -
+   - Asks the user for a problem they would like to solve.
+   - Uses a conditional statement to determine which operand they used, and apply it to solve the problem.
+   - Presents the answer of the problem.
    
 
 ## How to Run the Apps
@@ -28,8 +35,6 @@ This program serves as a calculator for the user, who enters a problem they want
   - Open the provided C++ project in Xcode or any C++ compiler.
   - Run the program.
   - Follow the on-screen instructions to input your information.
-  - Select yes if you would like to use it again, no if you would like to exit.
-
 
 - **Problem 2 (Birthday Date Meaning Generator)**:
   - Open the provided C++ project in Xcode or any C++ compiler.
@@ -79,6 +84,8 @@ This program serves as a calculator for the user, who enters a problem they want
 - **Problem 3 (Basic Math Calculator)**:
   - Sample Output:
     ```
-    
+    Enter a problem you would like to solve: ____
 
+    The answer to ____ is: ___
+    
     ```
